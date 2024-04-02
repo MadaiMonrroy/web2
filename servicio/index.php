@@ -17,11 +17,11 @@
 
 
         if($result!=""){
-            responder(200, "CURSO", $result);
+            responder(200, "ENCONTRADOGIT", $result);
         }
     }else{
         $respuesta = obtenerCursos();
-        responder(200,"LISTA DE CURSOS", $respuesta); // Convertimos el array a JSON antes de imprimirlo
+        responder(200,"LISTA DE CURSOS", $respuesta); 
     }
 
 
